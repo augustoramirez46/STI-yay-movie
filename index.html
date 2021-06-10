@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yay-Movie</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="intro">
+        <div class="intro__r intro__r--1"></div>
+        <div class="intro__r intro__r--2"></div>
+        <div class="intro__radialBlur"></div>
+
+        <div class="intro__center">
+            <img src="./resources/logo.png" alt="">
+            <button class="intro__continuar button">Continuar</button>
+        </div>
+    </main>
+
+    <main class="intro2">
+        <img src="./resources/intro2.png" alt="" class="intro2__img">
+
+        <div class="intro__center">
+
+            <button class="intro2__continuar button">Continuar</button>
+        </div>
+    </main>
+
+    <main class="lookup">
+        <div class="lookup__choice">
+            <div class="lookup__input">
+                <h1 class="lookup__choiceTitle">Sube el salón y elige el estudiante</h1>
+                <input type="file" class="csv-file" name="files" accept=".csv" />
+            </div>
+            <div class="person-select lookup__select">
+                <label for="">Estudiante <select name="P1.3" class="person"> </select></label>
+                <button class="execute3 button lookup__test"> Testear similitud </button>
+                <p class="k-label"></p>
+            </div>
+        </div>
+
+        <div class="lookup__result">
+            <div class="lookup__container">
+                <h1 class="lookup__movieHeader">La pelicula que deberias ver es:</h1>
+                <div class="lookup__movRes"></div>
+            </div>
+        </div>
+
+        <div class="lookup__students">
+            <h1 class="lookup__rTitle">El Grupo</h1>
+            <div class="lookup__rList">
+
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./PapaParse-5.0.2/papaparse.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/navigation.js"></script>
+</body>
+
+</html>

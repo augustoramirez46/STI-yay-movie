@@ -1,0 +1,55 @@
+.intro {
+
+    display: none;
+    flex-direction: row;
+    overflow: hidden;
+
+    &__center {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__continuar {
+        margin-top: 1em;
+    }
+
+    &__r {
+        width: 800px;
+        height: 800px;
+        background-color: #F9E866;
+        position: absolute;
+
+        &--1 {
+            right: 0px;
+            top: 0px;
+        }
+
+        &--2 {
+            bottom: 0px;
+            left: 0px;
+        }
+    }
+
+    &__radialBlur {
+
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFFFFF 73.79%, rgba(255, 255, 255, 0) 100%);
+    }
+}

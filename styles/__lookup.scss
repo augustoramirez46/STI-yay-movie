@@ -1,0 +1,124 @@
+.lookup {
+    display: none;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-around;
+
+    &__choice {
+        width: 30%;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    &__input {
+        width: 100%;
+        background-color: #7A03EC;
+        padding: 3em;
+
+        margin-top: 45%;
+    }
+
+    &__test {
+        height: fit-content;
+        font-size: 24px;
+    }
+
+    &__choiceTitle {
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #FFF;
+    }
+
+    &__select {
+
+        margin-top: 20%;
+    }
+
+    &__result {
+
+        width: 30%;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    &__students {
+
+        width: 30%;
+        height: fit-content;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__rTitle {
+        width: 473px;
+        height: 136.46px;
+        text-align: center;
+
+        padding-top: auto;
+        padding-bottom: auto;
+
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        color: #8757FF;
+        background: radial-gradient(172.5% 2311.22% at 139.75% 172.5%, rgba(255, 232, 63, 1) 0%, rgba(135, 87, 255, 0) 100%);
+    }
+
+    &__lStudent {
+        width: 280px;
+        height: 50px;
+
+        background: radial-gradient(172.5% 2311.22% at 139.75% 172.5%, #8757FF 0%, rgba(135, 87, 255, 0) 100%);
+        border-radius: 6px;
+        list-style: none;
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    &__container {
+        height: fit-content;
+        margin: auto 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__movieHeader {
+        font-size: 34px;
+        color: #8757FF;
+    }
+
+    &__movieResult {
+        margin: 2em auto;
+        font-size: 32px;
+        color: rgba(255, 232, 63, 1);
+    }
+
+}
